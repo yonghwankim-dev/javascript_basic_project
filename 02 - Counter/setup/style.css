@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.container {
+  width: 45rem;
+  height: 26.875rem;
+  background: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+  font-family: sans-serif;
+  color: #0a0a23;
+}
+
+.num_section {
+  margin: 2.5rem 0;
+}
+
+#num {
+  font-size: 4rem;
+  color: #008000;
+  font-weight: bold;
+}
+
+.btn_section input[type="button"] {
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_section input[type="button"]:hover {
+  background: lightgray;
+}
